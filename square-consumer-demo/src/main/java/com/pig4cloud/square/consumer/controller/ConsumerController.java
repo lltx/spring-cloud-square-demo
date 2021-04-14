@@ -32,7 +32,7 @@ public class ConsumerController {
     @SneakyThrows
     @GetMapping("/retrofit")
     public String retrofit(){
-        return demoService.req().execute().body();
+        return demoService.req();
     }
 
 }
