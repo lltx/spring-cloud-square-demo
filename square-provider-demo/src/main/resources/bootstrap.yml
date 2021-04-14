@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: square-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: pigx-register:8848
